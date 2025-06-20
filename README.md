@@ -4,8 +4,8 @@
 
 > **A curated collection of industry-ready data science projects that demonstrate real business value and technical expertise.**
 
-[![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)]([https://youtube.com/your-video-link](https://www.youtube.com/channel/UCbXwEhVG0Hv3DtdORQLs_FQ))
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/sumit-kumar-dash-315378140/))
+[![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/channel/UCbXwEhVG0Hv3DtdORQLs_FQ)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sumit-kumar-dash-315378140/)
 
 ---
 
