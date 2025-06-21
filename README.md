@@ -70,7 +70,7 @@ These projects are specifically chosen to demonstrate skills that hiring manager
 **🛠️ Tech Stack:** Python, Scikit-learn, XGBoost, SMOTE, Streamlit, Plotly, SHAP
 
 **📸 Output Preview:**
-![Churn Prediction Results](https://via.placeholder.com/600x400/FF5722/FFFFFF?text=Churn+Risk+Assessment+Tool)
+![Churn Prediction Results](https://github.com/Sumit-Kumar-Dash/Top-5-Data-Science-Projects/blob/main/customer_churn_prediction_dashboard.png)
 
 ---
 
