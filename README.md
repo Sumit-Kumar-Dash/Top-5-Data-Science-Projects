@@ -39,14 +39,14 @@ These projects are specifically chosen to demonstrate skills that hiring manager
 ### 1. Customer Churn Prediction
 > **Predicting customer churn to reduce revenue loss and improve retention strategies**
 
-![Churn Dashboard]([https://github.com/Sumit-Kumar-Dash/Top-5-Data-Science-Projects/blob/main/customer_churn_dashboard.png])
+![Churn Dashboard](https://github.com/Sumit-Kumar-Dash/Top-5-Data-Science-Projects/blob/main/customer_churn_dashboard.png)
 
 **📉 Business Problem:** Telecommunications companies lose millions annually due to customer churn. Acquiring new customers costs 5x more than retaining existing ones. This project identifies at-risk customers before they leave.
 
 **🎯 Target Metrics:**
-- **Recall > 85%** for high-value customers (minimize false negatives)
+- **Recall > 75%** for high-value customers (minimize false negatives)
 - **Precision > 80%** to avoid customer annoyance
-- **F1-Score > 82%** for balanced performance
+- **F1-Score > 77%** for balanced performance
 - **Business Impact:** $2.3M potential revenue saved annually
 
 **📊 Dataset Source:** 
@@ -63,11 +63,10 @@ These projects are specifically chosen to demonstrate skills that hiring manager
 - Handling class imbalance using SMOTE and cost-sensitive learning
 - Ensemble methods (Random Forest + XGBoost + Logistic Regression)
 - Hyperparameter optimization with Bayesian search
-- Model interpretability with LIME and SHAP
 - Customer segmentation analysis
 - Threshold optimization for business metrics
 
-**🛠️ Tech Stack:** Python, Scikit-learn, XGBoost, SMOTE, Streamlit, Plotly, SHAP
+**🛠️ Tech Stack:** Python, Pandas, Scikit-learn, XGBoost, SMOTE, Streamlit, Plotly
 
 **📸 Output Preview:**
 ![Churn Prediction Results](https://github.com/Sumit-Kumar-Dash/Top-5-Data-Science-Projects/blob/main/customer_churn_prediction_dashboard.png)
@@ -102,7 +101,7 @@ These projects are specifically chosen to demonstrate skills that hiring manager
 - Similarity search with ChromaDB/Pinecone
 - Response evaluation and citation tracking
 
-**🛠️ Tech Stack:** Python, LangChain, OpenAI API, ChromaDB, FastAPI, React, Streamlit
+**🛠️ Tech Stack:** Python, LangChain, OpenAI API, ChromaDB, FastAPI, Streamlit
 
 **📸 Output Preview:**
 ![Document Q&A Interface](https://via.placeholder.com/600x400/673AB7/FFFFFF?text=Interactive+Document+Chat+Interface)
