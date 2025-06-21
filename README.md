@@ -76,8 +76,6 @@ These projects are specifically chosen to demonstrate skills that hiring manager
 ### 2. GenAI Document Intelligence System
 > **AI-powered document analysis and question-answering system using Large Language Models**
 
-![GenAI System](https://via.placeholder.com/800x400/2196F3/FFFFFF?text=GenAI+Document+Intelligence)
-
 **📄 Business Problem:** Organizations struggle to extract insights from large volumes of unstructured documents (contracts, reports, manuals). Employees spend 40% of their time searching for information, costing companies millions in productivity loss.
 
 **🎯 Target Metrics:**
@@ -104,14 +102,14 @@ These projects are specifically chosen to demonstrate skills that hiring manager
 **🛠️ Tech Stack:** Python, LangChain, OpenAI API, ChromaDB, FastAPI, Streamlit
 
 **📸 Output Preview:**
-![Document Q&A Interface](https://via.placeholder.com/600x400/673AB7/FFFFFF?text=Interactive+Document+Chat+Interface)
+![Document Q&A Interface](https://github.com/Sumit-Kumar-Dash/Top-5-Data-Science-Projects/blob/main/chatbot.png)
 
 ---
 
 ### 3. Time Series Forecasting Pipeline
 > **Multi-horizon demand forecasting with automated model selection and deployment**
 
-![Time Series Dashboard](https://via.placeholder.com/800x400/FF9800/FFFFFF?text=Time+Series+Forecasting)
+![Time Series Dashboard](https://github.com/Sumit-Kumar-Dash/Top-5-Data-Science-Projects/blob/main/retail_demand_dashboard.png)
 
 **📈 Business Problem:** Retail companies struggle with inventory management due to inaccurate demand forecasting. Poor forecasting leads to stockouts (lost sales) or overstock (carrying costs), resulting in millions in losses annually.
 
@@ -122,24 +120,25 @@ These projects are specifically chosen to demonstrate skills that hiring manager
 - **Business Impact:** $500K annual savings in inventory costs
 
 **📊 Dataset Source:** 
-- **Rossmann Store Sales Dataset** (1,017 stores, 2.5 years)
-- **Features:** Store info, promotions, holidays, competitor data
-- **External data:** Weather, economic indicators, Google Trends
-- **Frequency:** Daily sales with seasonal patterns
+- **Retail Store Demand Forecast** (76000 rows, 2 years)
+- **Forecast Target**: Demand (units sold per day)
+- **Features:** Historical demand, promotion flags, discount rates, inventory levels
+- **External data:** Weather, weather condition, holiday indicators
+- **Engineered features:** lag values, rolling averages, standard deviations
+- [Dataset](https://www.kaggle.com/datasets/atomicd/retail-store-inventory-and-demand-forecasting)
 
 **🔧 Technical Highlights:**
 - Classical time series methods (ARIMA, Exponential Smoothing)
-- Modern ML approaches (Prophet, LSTM, Transformer models)
+- Modern ML approaches (XGBoost Regressor, LSTM, Transformer models)
 - Feature engineering with lag variables and rolling statistics
 - Automated hyperparameter optimization with Optuna
-- Time-based cross-validation (no data leakage)
-- Multi-step ahead forecasting with confidence intervals
+- Time-aware splitting: Avoided data leakage using chronological train–validation strategy
 - Seasonal decomposition and trend analysis
 
 **🛠️ Tech Stack:** Python, Prophet, TensorFlow, Optuna, MLflow, Streamlit, Plotly
 
 **📸 Output Preview:**
-![Forecasting Dashboard](https://via.placeholder.com/600x400/FF9800/FFFFFF?text=Interactive+Demand+Forecasting+Dashboard)
+![Forecasting Dashboard](https://github.com/Sumit-Kumar-Dash/Top-5-Data-Science-Projects/blob/main/time_series_demand_forecast_dashboard.png)
 
 ---
 
