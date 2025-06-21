@@ -39,7 +39,7 @@ These projects are specifically chosen to demonstrate skills that hiring manager
 ### 1. Customer Churn Prediction
 > **Predicting customer churn to reduce revenue loss and improve retention strategies**
 
-![Churn Dashboard](https://via.placeholder.com/800x400/4CAF50/FFFFFF?text=Customer+Churn+Dashboard)
+![Churn Dashboard]([https://github.com/Sumit-Kumar-Dash/Top-5-Data-Science-Projects/blob/main/customer_churn_dashboard.png])
 
 **📉 Business Problem:** Telecommunications companies lose millions annually due to customer churn. Acquiring new customers costs 5x more than retaining existing ones. This project identifies at-risk customers before they leave.
 
