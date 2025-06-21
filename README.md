@@ -16,7 +16,7 @@
   - [3. Time Series Forecasting Pipeline](#3-time-series-forecasting-pipeline)
   - [4. E-commerce Product Reviews Scraping & Analysis](#4-e-commerce-product-reviews-scraping--analysis)
   - [5. Healthcare Analytics: Disease Risk Prediction](#5-healthcare-analytics-disease-risk-prediction)
-- [🚀 Running Individual Projects](#-getting-started)
+- [🚀 Running Individual Projects](#running-individual-projects)
 
 ---
 
