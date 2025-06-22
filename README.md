@@ -16,8 +16,6 @@
   - [3. Time Series Forecasting Pipeline](#3-time-series-forecasting-pipeline)
   - [4. E-commerce Product Reviews Scraping & Analysis](#4-e-commerce-product-reviews-scraping--analysis)
   - [5. Healthcare Analytics: Disease Risk Prediction](#5-healthcare-analytics-disease-risk-prediction)
-- [🚀 Running Individual Projects](#running-individual-projects)
-
 ---
 
 ## 🧠 Why These Projects?
@@ -145,45 +143,39 @@ These projects are specifically chosen to demonstrate skills that hiring manager
 ### 4. E-commerce Product Reviews Scraping & Analysis
 > **Automated web scraping and sentiment analysis of product reviews for competitive intelligence**
 
-![Product Reviews Analysis](https://via.placeholder.com/800x400/9C27B0/FFFFFF?text=Product+Reviews+Analysis+Dashboard)
-
 **🛒 Business Problem:** E-commerce companies need to monitor product performance and customer feedback across multiple platforms. Manual review monitoring is time-consuming and doesn't scale. Companies lose competitive advantage without insights into customer sentiment and product issues.
 
 **🎯 Target Metrics:**
 - **Scrape 10,000+ reviews** daily across multiple platforms
-- **95%+ data accuracy** with robust error handling
-- **Sentiment classification accuracy > 92%**
+- **90%+ accuracy** in review classification (positive, neutral, negative)
+- **<2 seconds/review NLP processing time**
 - **Real-time competitive analysis** across 5+ competitors
+- **Business Value**: Drives competitive pricing and product strategy — estimated 15% conversion improvement
 
 **📊 Dataset Source:** 
 - **Amazon Product Reviews** (scraped via BeautifulSoup/Selenium)
 - **Flipkart, eBay Reviews** (multi-platform scraping)
 - **Target Products:** Electronics, Fashion, Home & Garden
-- **Review Elements:** Rating, text, date, verified purchase status
+- **Review Fields**: Title, Body, Rating, Date, Verified Badge, Review Votes
+- [Dataset](https://www.kaggle.com/datasets/asaniczka/amazon-brazil-products-2023-1-3m-products/code)
 
 **🔧 Technical Highlights:**
-- Multi-platform web scraping with rotating proxies
-- Anti-bot detection bypass (CAPTCHA solving, headers rotation)
+- Data Cleaning NLP preprocessing: Spell correction, lemmatization, emoji filtering
+- Multi-platform web scraping
 - Distributed scraping with Scrapy framework
-- Data validation and duplicate detection
-- NLP preprocessing for review text analysis
+- Sentiment classification
 - Aspect-based sentiment analysis (price, quality, delivery)
 - Review summarization using extractive methods
-- Automated report generation with insights
+- Topic modeling (LDA, BERTopic) to extract customer pain points
 
-**🛠️ Tech Stack:** Python, Scrapy, Selenium, BeautifulSoup, Pandas, NLTK, MongoDB
-
-**📸 Output Preview:**
-![Review Scraping Dashboard](https://via.placeholder.com/600x400/795548/FFFFFF?text=Automated+Review+Scraping+Pipeline)
+**🛠️ Tech Stack:** Python, Selenium, BeautifulSoup, Pandas, NLTK, MongoDB, TextBlob, Transformers, LDA
 
 ---
 
 ### 5. Healthcare Analytics: Disease Risk Prediction
 > **Comprehensive data analysis and machine learning for early disease detection**
 
-![Healthcare Analytics](https://via.placeholder.com/800x400/607D8B/FFFFFF?text=Healthcare+Disease+Risk+Analytics)
-
-**🏥 Business Problem:** Healthcare systems struggle with early disease detection and resource allocation. Late diagnosis leads to higher treatment costs and worse patient outcomes. Hospitals need predictive models to identify high-risk patients and optimize preventive care strategies.
+**🏥 Business Problem:** Healthcare systems struggle with early disease detection and resource allocation. Late diagnosis leads to higher treatment costs and worse patient outcomes. Hospitals need predictive models to identify high-risk patients and optimize preventive care strategies. Aims to leverage data science and machine learning for early detection and prevention of chronic diseases.
 
 **🎯 Target Metrics:**
 - **Sensitivity > 90%** for disease detection (minimize false negatives)
@@ -192,52 +184,20 @@ These projects are specifically chosen to demonstrate skills that hiring manager
 - **Cost savings:** $2M annually through early intervention
 
 **📊 Dataset Source:** 
-- **Heart Disease UCI Dataset** (303 patients, 14 clinical features)
-- **Diabetes Dataset** (768 patients with risk factors)
+- **Heart Disease ViT Dataset** 70,000 patient data
+- **Binary Classification**  having Balanced data predict risk_label of heart disease
 - **Custom synthetic data** generated for privacy compliance
-- **Features:** Demographics, vitals, lab results, lifestyle factors
+- **Features:** Symptoms (Binary - Yes/No) and Risk Factors (Binary - Yes/No or Continuous)
 
 **🔧 Technical Highlights:**
 - Extensive exploratory data analysis with statistical tests
-- Missing data imputation using advanced techniques (KNN, MICE)
-- Feature engineering: BMI categories, age groups, risk scores
-- Statistical analysis: correlation matrices, hypothesis testing
-- Multiple ML algorithms comparison (Logistic Regression, Random Forest, SVM, Neural Networks)
-- Feature importance analysis with permutation importance
-- Model interpretability using LIME and SHAP
+- Statistical analysis: correlation matrices, hypothesis testing, heatmap
+- Multiple ML algorithms comparison (Logistic Regression, Random Forest, XGBoost)
+- Feature importance analysis 
 - Clinical decision threshold optimization
 - Comprehensive data visualization with medical insights
 
-**🛠️ Tech Stack:** Python, Pandas, NumPy, Scikit-learn, Seaborn, Plotly, SHAP, Streamlit
-
-**📸 Output Preview:**
-![Disease Risk Assessment](https://via.placeholder.com/600x400/4CAF50/FFFFFF?text=Patient+Risk+Assessment+Dashboard)
-
----
-
-### Running Individual Projects
-```bash
-# Customer Churn Prediction
-cd customer-churn-prediction
-streamlit run app.py
-
-# GenAI Document Intelligence
-cd genai-document-intelligence
-docker-compose up -d
-
-# Time Series Forecasting
-cd time-series-forecasting
-python -m streamlit run dashboard.py
-
-# Sentiment Analysis
-cd social-sentiment-analysis
-python app.py
-
-# ML Production Pipeline
-cd ml-production-pipeline
-kubectl apply -f k8s/
-```
-
+**🛠️ Tech Stack:** Python, Pandas, NumPy, Scikit-learn, Seaborn, Plotly, XGBoost, Streamlit
 ---
 
 ## 🤝 Contributing
