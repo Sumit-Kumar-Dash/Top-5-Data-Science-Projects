@@ -206,14 +206,14 @@ These projects are specifically chosen to demonstrate skills that hiring manager
 
 I welcome contributions, suggestions, and feedback! Here's how you can help:
 
-1. **🐛 Report Issues**: Found a bug? [Open an issue](https://github.com/username/data-science-portfolio/issues)
+1. **🐛 Report Issues**: Found a bug? [Open an issue](https://github.com/Sumit-Kumar-Dash/Top-5-Data-Science-Projects/issues)
 2. **💡 Suggest Features**: Have ideas for improvements? Let's discuss!
 3. **🔧 Submit PRs**: Code improvements are always welcome
 4. **⭐ Star the Repo**: If you find this helpful, please star it!
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE] file for details.
 
 ---
 
@@ -221,7 +221,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### ⭐ If this repository helped you land your first data science job, please star it and share your success story!
 
-**[📺 Watch the Full YouTube Tutorial](https://www.youtube.com/channel/UCbXwEhVG0Hv3DtdORQLs_FQ)**
+**[📺 Watch the Full YouTube Tutorial](https://youtu.be/IaxTPdJoy8o)**
 
 </div>
 
