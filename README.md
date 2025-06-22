@@ -188,6 +188,7 @@ These projects are specifically chosen to demonstrate skills that hiring manager
 - **Binary Classification**  having Balanced data predict risk_label of heart disease
 - **Custom synthetic data** generated for privacy compliance
 - **Features:** Symptoms (Binary - Yes/No) and Risk Factors (Binary - Yes/No or Continuous)
+- [Dataset](https://www.kaggle.com/datasets/mahatiratusher/heart-disease-risk-prediction-dataset/data)
 
 **🔧 Technical Highlights:**
 - Extensive exploratory data analysis with statistical tests
@@ -198,6 +199,7 @@ These projects are specifically chosen to demonstrate skills that hiring manager
 - Comprehensive data visualization with medical insights
 
 **🛠️ Tech Stack:** Python, Pandas, NumPy, Scikit-learn, Seaborn, Plotly, XGBoost, Streamlit
+
 ---
 
 ## 🤝 Contributing
